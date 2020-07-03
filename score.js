@@ -1,5 +1,6 @@
 var p1button = document.querySelector("#p1");
 var p2button = document.querySelector("#p2");
+var reset = document.querySelector("#reset");
 var p1Display = document.querySelector("#p1display");
 var p2Display = document.querySelector("#p2display");
 var p1Score = 0;
@@ -29,3 +30,7 @@ p2button.addEventListener("click", function(){
 	}
 	
 });
+
+reset.addEventListener("click", function(){
+	location.reload();
+})
